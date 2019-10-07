@@ -1,0 +1,11 @@
+
+.list-group-item {
+    padding: 1rem 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add-ingredient {
+    margin: 2rem 0;
+}

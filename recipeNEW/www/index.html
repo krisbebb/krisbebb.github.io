@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="manifest.json">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css"> -->
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                </ul>
+                <h1>Recipe Helper</h1>
+                <h2>Helping you with your recipes</h2>
+            </header>
+
+            <input id="search-text" type="text" placeholder="search recipes">
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://via.placeholder.com/200x90.png?text=placeholder.com" alt="Card image cap">
+                <div class="card-body">
+                   
+                    <div id="recipes"></div>
+                </div>
+            </div>
+           
+            <button type="button" class="btn btn-primary" id="add-recipe">Add Recipe</button>
+        </div>
+       
+        <div class="card-footer text-muted">
+            <p>Created by Kris Bebbington</p>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script src="./js/uuidv4.js"></script>
+
+        <script src="./js/recipe-functions.js"></script>
+        <script src="./js/recipe-app.js"></script>
+    </body>
+</html>
